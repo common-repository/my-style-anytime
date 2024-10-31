@@ -1,0 +1,331 @@
+
+/* This is System part of css how can make more effective to use plugin and style only for back-end use */
+
+/* Custom icon for the plugin options menu */
+#toplevel_page_my-style-anytime .wp-menu-image::before {
+    font-family: 'Font Awesome 5 Free', serif;
+    content: "\f5aa";
+    font-weight: 900;
+    font-size: 14px;
+    padding:10px 0 0 0;
+}
+
+.power-by-info {
+    font-style: normal;
+}
+
+.power-by-info .fa-heart {
+    color: #dd2e44;
+}
+
+.version {
+    font-style: italic;
+}
+
+.dashicons {
+    padding: 2px 1px 0 0;
+    width: 25px;
+}
+
+.xdebug-var-dump {
+    margin: 3% 0 0 20%;
+}
+
+.license-container {
+    margin: 20px;
+    padding: 35px;
+    background: #fff;
+    border-radius: 4px
+}
+
+.license-container .license-field {
+    display: block;
+    margin-bottom: 15px
+}
+
+.license-container .license-field input {
+    font-size: 200%;
+    padding: 8px 10px 10px
+}
+
+.license-container .notice-error, .license-container div.error {
+    background: rgba(220, 50, 50, .11);
+    margin: 0
+}
+
+.license-container .license-title {
+    margin-top: 0;
+    font-size: 30px;
+    padding-bottom: 5px;
+}
+
+.license-container .license-info li {
+    list-style: none;
+    padding: 0
+}
+
+.license-container .license-info-title {
+    width: 150px;
+    display: inline-block;
+    position: relative;
+    padding-right: 5px
+}
+
+.license-container .license-info-title:after {
+    content: ":";
+    position: absolute;
+    right: 2px
+}
+
+.license-container .license-valid, .license-container .license-invalid {
+    padding: 0 5px 2px;
+    color: #fff;
+    background-color: #8fcc77;
+    border-radius: 3px
+}
+
+.license-container .license-invalid {
+    background-color: #f44336
+}
+
+.license-container .license-key {
+    font-weight: 700;
+    opacity: .8
+}
+
+.license-container .green-btn {
+    padding: 0 5px 2px;
+    color: #fff;
+    background-color: #8fcc77;
+    border-radius: 3px;
+    text-decoration: none;
+    -webkit-box-shadow: 0 0 3px -1px rgba(0, 0, 0, .38);
+    -moz-box-shadow: 0 0 3px -1px rgba(0, 0, 0, .38);
+    box-shadow: 0 0 3px -1px rgba(0, 0, 0, .38)
+}
+
+.license-container .green-btn:hover {
+    color: #fff;
+    background-color: #84bc6c
+}
+
+.license-container .blue-btn {
+    padding: 0 5px 2px;
+    color: #fff;
+    background-color: #20b1d2;
+    border-radius: 3px;
+    text-decoration: none;
+    -webkit-box-shadow: 0 0 3px -1px rgba(0, 0, 0, .38);
+    -moz-box-shadow: 0 0 3px -1px rgba(0, 0, 0, .38);
+    box-shadow: 0 0 3px -1px rgba(0, 0, 0, .38)
+}
+
+.license-container .blue-btn:hover {
+    color: #fff;
+    background-color: #219dbf
+}
+
+.license-container .license-field label {
+    display: block;
+    margin-bottom: 5px
+}
+
+.license-container .license-active-btn {
+    margin-top: 25px
+}
+
+.page_mysat_security_page .form-table th,
+.page_mysat_settings_page .form-table th,
+.page_mysat_custom_page .form-table th {
+    width: 0 !important;
+    padding: 0 !important;
+}
+
+.page_mysat_security_page .form-table td,
+.page_mysat_settings_page .form-table td,
+.page_mysat_custom_page .form-table td {
+    padding-left: 0 !important;
+}
+
+.function_name {
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+.function_description {
+    padding-top: 5px;
+}
+
+.page_mysat_security_page .form-table th[scope="row"], .page_mysat_custom_page .form-table th[scope="row"], .page_mysat_settings_page .form-table th[scope="row"] {
+    width: 300px !important;
+    position: absolute;
+    margin: 15px 0 0 20px !important;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+/*### Buttons styles ###*/
+
+
+/*#########################################################################*/
+
+/*### Start General page styles ###*/
+
+.help-style {
+    color: #b12222;
+    font-weight: bold;
+}
+
+.rate-star-filled, .faq-filled, .help-filled, .donate-filled {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.rate-star-filled {
+    color:#ffb900;
+}
+
+.faq-filled {
+    color:#30bb20;
+}
+
+.help-filled {
+    color:#cd1212;
+}
+
+.donate-filled {
+    color:#0c9cf3;
+}
+
+/*### End General page styles ###*/
+
+/*#########################################################################*/
+
+/*### Start Editor page styles ###*/
+
+.code-editor-description-page, .backup-description-page {
+    font-size: 15px;
+    padding: 5px;
+}
+
+.list-css-files {
+    margin: 10px 0 10px 0;
+}
+
+.select-css-file-item {
+    padding: 5px 0 5px 0;
+    margin: 2px 5px 5px 5px;
+    border: 1px solid #eae9e9;
+    border-radius: 4px;
+    width: auto;
+    display: inline-block;
+    font-size: 15px;
+}
+
+.select-css-file-item a {
+    padding: 4px 4px 4px 4px;
+    border: 1px solid #eae9e9;
+    color: #000000;
+    background-color: #eae9e9;
+    text-decoration: none;
+}
+
+.select-css-file-item a:hover {
+    padding: 4px 4px 4px 4px;
+    border: 1px solid #ececec;
+    color: #0c85fa;
+    background-color: #ececec;
+    text-decoration: none;
+}
+
+#codemirror-container {
+    height: 500px;
+    width: 100%;
+}
+
+.edit-link {
+    padding: 2px;
+}
+
+.select-css-file-item .fa-circle-check {
+    color: #26b726;
+}
+
+.select-css-file-item .fa-circle-xmark {
+    color: #f30000;
+    padding: 0 0 0 2px;
+}
+
+.select-css-file-item .fa-paint-roller {
+
+}
+
+.CodeMirror {
+    height: 500px !important;
+}
+
+/*### End Editor page styles ###*/
+
+/*#########################################################################*/
+
+/*### Start Customization page styles ###*/
+
+
+/*### End Customization page styles ###*/
+
+/*#########################################################################*/
+
+/*### Start Security page styles ###*/
+
+
+/*### End Security page styles ###*/
+
+/*#########################################################################*/
+
+/*### Start Settings page styles ###*/
+
+
+/*### End Settings page styles ###*/
+
+/*#########################################################################*/
+
+/*### Start Backup page styles ###*/
+
+.backup-buttom-content {
+    margin: 19px 0 0 0;
+}
+
+.backup-list h4 {
+    margin:30px 0 5px 0 !important;
+}
+
+.backup-item {
+    width: 100%;
+    display: flex;
+    padding: 5px 0 5px 0;
+}
+
+.backup-item span {
+    padding: 6px 10px 0 0;
+    width: 350px;
+    display: inline-block;
+    text-align: center;
+}
+
+.restore-button {
+    margin: 0 10px 0 0;
+}
+
+.delete-button {
+    margin: 0 0 0 10px;
+}
+
+.backup-item .button-primary .button-secondary {
+    margin: 0 0 10px 0;
+}
+
+
+
+/*### End Backup page styles ###*/
+
+/*#########################################################################*/
